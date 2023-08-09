@@ -7,3 +7,4 @@ list_text = sl.speech('output.wav')
 print(list_text)
 
 textImage = ti.imgDisplay(list_text)
+print(textImage)
