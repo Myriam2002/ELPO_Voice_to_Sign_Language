@@ -16,3 +16,15 @@
     - [ ]  Implement functionality to display the appropriate sign language image in the GUI based on the recognized spoken word.
     - [ ]  Ensure that the images are displayed clearly and in a visually appealing manner.
     - [ ]  Test the functionality to ensure that the correct sign language image is displayed for each recognized spoken word.
+
+
+
+
+Mariam -> speech recognition functionalit   (record)
+input: voice
+output: finds the words that are from the 10 words 
+
+
+Salma -> Text to image 
+input: list of Text
+output: list of images 
