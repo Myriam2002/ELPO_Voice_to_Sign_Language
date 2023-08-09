@@ -1,0 +1,18 @@
+1. Design the GUI:
+    - [ ]  Decide on the layout of the GUI, including where the input and output will be displayed.
+    - [ ]  Choose the colors, fonts, and other visual elements for the GUI.
+    - [ ]  Create mockups or wireframes of the GUI to visualize the design.
+2. Collect sign language images:
+    - [ ]  Research and gather images of the sign language gestures for the 10 words you will be using as input.
+3. Implement speech recognition:
+    - [ ]  Choose a speech recognition library or API to use for recognizing the spoken words as input.
+    - [ ]  Set up and configure the speech recognition functionality.
+    - [ ]  Test the speech recognition to ensure that it accurately recognizes the 10 words you will be using as input.
+4. Integrate speech recognition with GUI:
+    - [ ]  Connect the speech recognition functionality with your GUI.
+    - [ ]  Implement functionality to display the recognized spoken word in the GUI.
+    - [ ]  Test the integration to ensure that spoken words are accurately recognized and displayed in the GUI.
+5. Display sign language images:
+    - [ ]  Implement functionality to display the appropriate sign language image in the GUI based on the recognized spoken word.
+    - [ ]  Ensure that the images are displayed clearly and in a visually appealing manner.
+    - [ ]  Test the functionality to ensure that the correct sign language image is displayed for each recognized spoken word.
