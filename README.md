@@ -1,5 +1,5 @@
 # Voice to Sign Language Converter
-<img src="Images\Example.png" width="200">
+<img src="Images\Example.png" width="400">
 
 This project aims to convert voice input 🗣️ into sign language 🖖. 
 Steps:
