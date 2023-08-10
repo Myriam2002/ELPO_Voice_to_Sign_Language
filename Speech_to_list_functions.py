@@ -8,6 +8,7 @@ import pyaudio
 import wave
 import keyboard
 import speech_recognition as sr
+import os
 # F
 def record_sound():
 
@@ -64,6 +65,15 @@ def record_sound():
     wf.close()
     return 0
 
+def find_words_in_directory():
+    directory_list = list()
+    for root, dirs, files in os.walk("Images", topdown=False):
+        for name in dirs:
+            directory_list.append(name)
+
+    return directory_list
+
+
 def speech_to_list(file):
     """Takes the recorded file "output.wav" and converts it to text, then only picks words that are within our 10 words.
 
@@ -92,10 +102,10 @@ def speech_to_list(file):
             print('Sorry.. run again...')
     
     words = []
-    ten_words = ["drink","eat","hello","help","love","morning","ok","please","stop","thank"]
+    x_words = find_words_in_directory()
     list_text = text.split(" ")
     for i in list_text:
-        if i in ten_words:
+        if i in x_words:
             words.append(i)
     return words
         

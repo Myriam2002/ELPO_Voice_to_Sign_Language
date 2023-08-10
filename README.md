@@ -26,7 +26,11 @@ To use the Voice to Sign Language Converter, simply run the `main.py` script and
 ```
 python main.py
 ```
-
+## Add your own words🙌
+1. Just create a new folder in the folder by the name `Images`
+2. Name the folder the words name in small letters
+3. Upload the sign language representation for this image
+4. Enjoy!😇🎇
 ## Contributing ✨
 
 Contributions to this project are welcome! If you'd like to contribute, please fork the repository and make your changes. Then, submit a pull request with your changes.
