@@ -92,7 +92,7 @@ def speech_to_list(file):
             print('Sorry.. run again...')
     
     words = []
-    ten_words = ["drink","eat","hello","help","love","morning","okay","please","stop","thank you"]
+    ten_words = ["drink","eat","hello","help","love","morning","ok","please","stop","thank"]
     list_text = text.split(" ")
     for i in list_text:
         if i in ten_words:
